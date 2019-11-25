@@ -1,7 +1,7 @@
 <?php
 
   // DB Details -- NB no exception handling included
-  $db_name = 'seb_products';
+  $db_name = 'ca2_products';
   $db_user = 'root';
   $db_pass = '';
 

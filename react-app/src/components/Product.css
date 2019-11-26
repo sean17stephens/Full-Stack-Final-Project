@@ -1,3 +1,6 @@
+div.card mb-4{
+  background-color: sandybrown;
+}
 div.product-image {
   text-align : center;
   height     : 100%;

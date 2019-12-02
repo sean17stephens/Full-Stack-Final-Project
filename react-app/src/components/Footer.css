@@ -1,4 +1,7 @@
+@import './Fonts.scss';
+
 div.footer {
     text-align : center;
     background-color: tan;
+    font-family: quicksand;
   }

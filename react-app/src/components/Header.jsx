@@ -1,7 +1,7 @@
 import React    from 'react';
 import ViewCart from './ViewCart';
 
-import './Header.css';
+
 
 class Header extends React.Component {
 

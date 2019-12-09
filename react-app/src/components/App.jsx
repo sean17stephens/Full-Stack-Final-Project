@@ -3,7 +3,8 @@ import ProductsList from './ProductList';
 import Header       from './Header';
 import Cart         from '../lib/Cart';
 import Footer       from './Footer';
-import Form         from './Form';
+import Stripe       from './Stripe';
+import Mod       from './Mod';
 
 class App extends React.Component {
 
@@ -18,8 +19,9 @@ class App extends React.Component {
     return (
       <div className='App'>
         <Header cart={this.state.cart} />
+        <Stripe />
         <ProductsList cart={this.state.cart} />
-        <Form />
+        <Mod />
         <Footer />
       </div>
     );

@@ -4,7 +4,9 @@ import Header       from './Header';
 import Cart         from '../lib/Cart';
 import Footer       from './Footer';
 import Stripe       from './Stripe';
-import Mod       from './Mod';
+import Form         from './For';
+import Table        from './Tab';
+import Toast        from './Toa';
 
 class App extends React.Component {
 
@@ -20,8 +22,10 @@ class App extends React.Component {
       <div className='App'>
         <Header cart={this.state.cart} />
         <Stripe />
+        <Form />
         <ProductsList cart={this.state.cart} />
-        <Mod />
+        <Table />
+        <Toast />
         <Footer />
       </div>
     );
